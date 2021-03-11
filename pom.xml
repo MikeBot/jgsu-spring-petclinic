@@ -222,9 +222,6 @@
           </execution>
         </executions>
       </plugin>
-
-      <!-- Spring Boot Actuator displays build-related information if a git.properties
-        file is present at the classpath -->
       <plugin>
         <groupId>pl.project13.maven</groupId>
         <artifactId>git-commit-id-plugin</artifactId>
